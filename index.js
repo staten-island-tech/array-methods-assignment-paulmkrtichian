@@ -40,14 +40,14 @@ const students = [
 students.forEach((students) => console.log(students.fName + " " + students.lName));
 
 students.forEach((students) => {
-    console.log(students.fName + " " + students.lName + 'graduations:');
+    console.log(students.fName + " " + students.lName + ' graduations:');
     students.graduations.forEach((graduated) => {
         console.log(graduated);
     });
 });
 
 students.forEach((students) => {
-    console.log(students.fName + " " + students.lName + 'heights:');
+    console.log(students.fName + " " + students.lName + ' heights:');
     students.heights.forEach((height) => {
         console.log(height);
     });
